@@ -1,0 +1,9 @@
+postgresql --https://www.delftstack.com/es/howto/postgres/restart-postgresql-linux-ubuntu/
+ # comando para  reiniciar postgres
+ sudo service postgresql restart
+ # comando para saber el estado de postgres
+ sudo systemctl restart postgresql.service
+
+cambiar a usuario posgres   ==>su  postgres -
+Entrar a la conola de postgres ==>psql
+con \password nombre usuario ==> cambias passwor del usuario
